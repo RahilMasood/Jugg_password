@@ -1,17 +1,7 @@
 {
-  "name": "password-tool-frontend",
-  "version": "1.0.0",
-  "description": "Password Change Tool Frontend",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build step required'"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "name": "change-password-ui",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "npx serve ."
+    }
   }
-}
-
