@@ -1,7 +1,8 @@
 {
-    "name": "change-password-ui",
+    "name": "jugg-password",
     "version": "1.0.0",
+    "private": true,
     "scripts": {
-      "start": "npx serve ."
+      "start": "npx http-server -p $PORT"
     }
   }
